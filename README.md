@@ -63,14 +63,10 @@
 <body>
     <div class="container">
         <h1>Introduction to 3 People</h1>
-
-        <!-- Đổi ảnh nền -->
         <div class="background-upload">
             <input type="file" id="background-image" accept="image/*" onchange="changeBackground(event)">
             <label for="background-image">Chọn ảnh làm nền</label>
         </div>
-        
-        <!-- Thông tin người thứ nhất -->
         <div class="person">
             <div class="avatar">
                 <img src="avatar.jpg" alt="">
@@ -85,8 +81,6 @@
                 </ul>
             </div>
         </div>
-
-        <!-- Thông tin người thứ hai -->
         <div class="person">
             <div class="avatar">
                 <img src="avatar.jpg" alt="">
@@ -101,8 +95,6 @@
                 </ul>
             </div>
         </div>
-
-        <!-- Thông tin người thứ ba -->
         <div class="person">
             <div class="avatar">
                 <img src="avatar.jpg" alt="">
@@ -118,7 +110,6 @@
             </div>
         </div>
     </div>
-
     <script>
         // Function thay đổi ảnh nền
         function changeBackground(event) {
